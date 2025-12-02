@@ -48,7 +48,7 @@ const getKaohsiungWeather = async (req, res) => {
     if (!locationData) {
       return res.status(404).json({
         error: "查無資料",
-        message: "無法取得高雄市天氣資料",
+        message: "無法取得新北市天氣資料",
       });
     }
 
